@@ -3,7 +3,6 @@
 
 if [ ! -d /data/git/.ssh ]; then
     echo hello
-    echo "WHOAMI" $(/usr/bin/whoami)
     ls -salrt /data/
     mkdir -p /data/git/.ssh
     chmod 700 /data/git/.ssh
